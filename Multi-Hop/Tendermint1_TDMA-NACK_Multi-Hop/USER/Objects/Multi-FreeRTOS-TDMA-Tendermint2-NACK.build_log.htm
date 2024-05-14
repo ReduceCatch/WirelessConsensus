@@ -1,0 +1,171 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Liu Shuo, SDU, LIC=JL263-AYELA-UGV7Q-NKX7S-NN00S-8ZAYN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  E:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+G:\桌面\Multi-FreeRTOS-TDMA-Tendermint2-NACK\USER\Multi-FreeRTOS-TDMA-Tendermint2-NACK.uvprojx
+Project File Date:  09/30/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'E:\keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling tendermint2.c...
+..\APPLICATION\tendermint2.h(199): warning:  #1295-D: Deprecated declaration tendermint2 - give arg types
+  void tendermint2();
+..\APPLICATION\tendermint2.c(108): warning:  #1295-D: Deprecated declaration Send_Sig - give arg types
+  void Send_Sig();
+..\APPLICATION\tendermint2.c(111): warning:  #1295-D: Deprecated declaration Global_Send_Ready - give arg types
+  void Global_Send_Ready();
+..\APPLICATION\tendermint2.c(112): warning:  #1295-D: Deprecated declaration Global_Start - give arg types
+  void Global_Start();
+..\APPLICATION\tendermint2.c(113): warning:  #1295-D: Deprecated declaration Global_ACK_phase - give arg types
+  void Global_ACK_phase();
+..\APPLICATION\tendermint2.c(114): warning:  #1295-D: Deprecated declaration Global_Go_ACK - give arg types
+  void Global_Go_ACK();
+..\APPLICATION\tendermint2.c(115): warning:  #1295-D: Deprecated declaration Global_TIMER - give arg types
+  void Global_TIMER();
+..\APPLICATION\tendermint2.c(116): warning:  #1295-D: Deprecated declaration Global_New_Proposal - give arg types
+  void Global_New_Proposal();
+..\APPLICATION\tendermint2.c(117): warning:  #1295-D: Deprecated declaration Global_Propose - give arg types
+  void Global_Propose();
+..\APPLICATION\tendermint2.c(119): warning:  #1295-D: Deprecated declaration Global_Send_VIEW_CHANGE - give arg types
+  void Global_Send_VIEW_CHANGE();
+..\APPLICATION\tendermint2.c(120): warning:  #1295-D: Deprecated declaration Global_NACK_phase - give arg types
+  void Global_NACK_phase();
+..\APPLICATION\tendermint2.c(121): warning:  #1295-D: Deprecated declaration Global_NACK_PREPREPARE - give arg types
+  void Global_NACK_PREPREPARE();
+..\APPLICATION\tendermint2.c(122): warning:  #1295-D: Deprecated declaration Global_NACK_PREPARE - give arg types
+  void Global_NACK_PREPARE();
+..\APPLICATION\tendermint2.c(123): warning:  #1295-D: Deprecated declaration Global_NACK_COMMIT - give arg types
+  void Global_NACK_COMMIT();
+..\APPLICATION\tendermint2.c(190): warning:  #1295-D: Deprecated declaration NACK_phase - give arg types
+  void NACK_phase();
+..\APPLICATION\tendermint2.c(196): warning:  #1295-D: Deprecated declaration Send_VIEW_CHANGE - give arg types
+  void Send_VIEW_CHANGE();
+..\APPLICATION\tendermint2.c(198): warning:  #1295-D: Deprecated declaration Sleep_Random - give arg types
+  void Sleep_Random();
+..\APPLICATION\tendermint2.c(200): warning:  #1295-D: Deprecated declaration NACK_PREPREPARE - give arg types
+  void NACK_PREPREPARE();
+..\APPLICATION\tendermint2.c(201): warning:  #1295-D: Deprecated declaration NACK_PREPARE - give arg types
+  void NACK_PREPARE();
+..\APPLICATION\tendermint2.c(202): warning:  #1295-D: Deprecated declaration NACK_COMMIT - give arg types
+  void NACK_COMMIT();
+..\APPLICATION\tendermint2.c(207): warning:  #223-D: function "LoRa_Init" declared implicitly
+  	while(LoRa_Init())//??始化LORA模??
+..\APPLICATION\tendermint2.c(217): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\tendermint2.c(313): warning:  #223-D: function "RNG_Get_RandomRange" declared implicitly
+  	if(RNG_Get_RandomRange(2,101) <= DONE_THRES){
+..\APPLICATION\tendermint2.c(314): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(0);
+..\APPLICATION\tendermint2.c(316): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(1);
+..\APPLICATION\tendermint2.c(327): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\tendermint2.c(330): warning:  #223-D: function "btim_tim2_enable" declared implicitly
+  	btim_tim2_enable(ENABLE);
+..\APPLICATION\tendermint2.c(345): warning:  #223-D: function "GPIO_Pin_Set" declared implicitly
+  	
+ED0(1);LED1(1);LED2(1);
+..\APPLICATION\tendermint2.c(347): warning:  #223-D: function "init_public_key" declared implicitly
+  	init_public_key();
+..\APPLICATION\tendermint2.c(541): warning:  #177-D: variable "tmp_ACK" was declared but never referenced
+  		u8 tmp_ACK=0;
+..\APPLICATION\tendermint2.c(478): warning:  #550-D: variable "NEXT_flag" was set but never used
+  	u8 NEXT_flag = 1;
+..\APPLICATION\tendermint2.c(715): warning:  #223-D: function "RNG_Get_RandomRange" declared implicitly
+  	u32 random = RNG_Get_RandomRange(1,N);
+..\APPLICATION\tendermint2.c(820): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  					LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(841): warning:  #223-D: function "RNG_Get_RandomNum" declared implicitly
+  		seed = RNG_Get_RandomNum();
+..\APPLICATION\tendermint2.c(920): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(951): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(978): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1015): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1044): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1065): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\tendermint2.c(1071): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1099): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1125): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1151): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1179): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1205): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1233): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1	
+..\APPLICATION\tendermint2.c(1260): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1	
+..\APPLICATION\tendermint2.c(1298): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1343): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1366): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1398): warning:  #223-D: function "RNG_Get_RandomNum" declared implicitly
+  		seed = RNG_Get_RandomNum();
+..\APPLICATION\tendermint2.c(1396): warning:  #177-D: variable "seed_u8" was declared but never referenced
+  	u8 seed_u8[4];
+..\APPLICATION\tendermint2.c(1451): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1479): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1507): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1534): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1573): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(1601): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1627): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1653): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1681): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1706): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c: 63 warnings, 0 errors
+linking...
+Program Size: Code=61692 RO-data=1540 RW-data=4964 ZI-data=78756  
+".\Objects\Multi-FreeRTOS-TDMA-Tendermint2-NACK.axf" - 0 Error(s), 63 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\桌面\Multi-FreeRTOS-TDMA-Tendermint2-NACK\USER\RTE
+  E:\keil\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>

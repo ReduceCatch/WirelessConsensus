@@ -1,0 +1,13 @@
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\library\threading.c
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\library\common.h
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/build_info.h
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/mbedtls_config.h
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/config_psa.h
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/check_config.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\threading.o: ..\MBEDTLS\mbedtls-development\library\alignment.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\threading.o: E:\keil\ARM\ARMCC\Bin\..\include\stddef.h

@@ -1,0 +1,14 @@
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\library\version.c
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\library\common.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/build_info.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/mbedtls_config.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/config_psa.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/check_config.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\library\alignment.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\version.o: E:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\version.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/version.h

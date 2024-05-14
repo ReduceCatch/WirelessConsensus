@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Liu Shuo, SDU, LIC=JL263-AYELA-UGV7Q-NKX7S-NN00S-8ZAYN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  E:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+G:\桌面\FreeRTOS-CSMA-HotStuff-ACK\USER\FreeRTOS-CSMACA-HotStuff.uvprojx
+Project File Date:  08/12/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'E:\keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling hotstuff_main.c...
+..\APPLICATION\hotstuff.h(130): warning:  #1295-D: Deprecated declaration hotstuff - give arg types
+  void hotstuff();
+..\APPLICATION\hotstuff.h(132): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APPLICATION\hotstuff_main.c(114): warning:  #1295-D: Deprecated declaration Propose - give arg types
+  void Propose();
+..\APPLICATION\hotstuff_main.c(115): warning:  #1295-D: Deprecated declaration Go_ACK - give arg types
+  void Go_ACK();
+..\APPLICATION\hotstuff_main.c(116): warning:  #1295-D: Deprecated declaration Start_TIMER - give arg types
+  void Start_TIMER();
+..\APPLICATION\hotstuff_main.c(117): warning:  #1295-D: Deprecated declaration Sleep_Random - give arg types
+  void Sleep_Random();
+..\APPLICATION\hotstuff_main.c(118): warning:  #1295-D: Deprecated declaration ACK_phase - give arg types
+  void ACK_phase();
+..\APPLICATION\hotstuff_main.c(123): warning:  #223-D: function "LoRa_Init" declared implicitly
+  	while(LoRa_Init())//??始化LORA模??
+..\APPLICATION\hotstuff_main.c(134): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\hotstuff_main.c(184): warning:  #223-D: function "RNG_Get_RandomRange" declared implicitly
+  	if(RNG_Get_RandomRange(2,101) <= DONE_THRES){
+..\APPLICATION\hotstuff_main.c(185): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(0);
+..\APPLICATION\hotstuff_main.c(187): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(1);
+..\APPLICATION\hotstuff_main.c(193): warning:  #223-D: function "btim_tim2_enable" declared implicitly
+  	btim_tim2_enable(ENABLE);
+..\APPLICATION\hotstuff_main.c(201): warning:  #223-D: function "GPIO_Pin_Set" declared implicitly
+  	
+ED0(1);LED1(1);LED2(1);
+..\APPLICATION\hotstuff_main.c(203): warning:  #223-D: function "init_public_key" declared implicitly
+  	init_public_key();
+..\APPLICATION\hotstuff_main.c(338): warning:  #177-D: variable "decide_flag" was declared but never referenced
+  	u8 decide_flag = 1;
+..\APPLICATION\hotstuff_main.c(409): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  					LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\hotstuff_main.c(431): warning:  #223-D: function "RNG_Get_RandomNum" declared implicitly
+  		seed = RNG_Get_RandomNum();
+..\APPLICATION\hotstuff_main.c(505): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\hotstuff_main.c(514): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\hotstuff_main.c(520): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\hotstuff_main.c(526): warning:  #223-D: function "RNG_Get_RandomRange" declared implicitly
+  	u32 random = RNG_Get_RandomRange(1,N);
+..\APPLICATION\hotstuff_main.c(568): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\hotstuff_main.c(591): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\hotstuff_main.c(661): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\hotstuff_main.c(699): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\hotstuff_main.c: 26 warnings, 0 errors
+linking...
+Program Size: Code=54440 RO-data=1540 RW-data=4036 ZI-data=67220  
+"..\OBJ\FreeRTOS-CSMACA-HotStuff.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\桌面\FreeRTOS-CSMA-HotStuff-ACK\USER\RTE
+  E:\keil\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>

@@ -1,0 +1,13 @@
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\library\mps_reader.c
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\library\common.h
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/build_info.h
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/mbedtls_config.h
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/config_psa.h
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/check_config.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mps_reader.o: ..\MBEDTLS\mbedtls-development\library\alignment.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\mps_reader.o: E:\keil\ARM\ARMCC\Bin\..\include\stddef.h

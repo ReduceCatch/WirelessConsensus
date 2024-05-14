@@ -1,0 +1,10 @@
+.\objects\system_stm32f7xx.o: ..\CMSIS\Device\ST\STM32F7xx\Source\Templates\system_stm32f7xx.c
+.\objects\system_stm32f7xx.o: ..\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+.\objects\system_stm32f7xx.o: ..\CMSIS\Device\ST\STM32F7xx\Include\stm32f767xx.h
+.\objects\system_stm32f7xx.o: ..\CORE\core_cm7.h
+.\objects\system_stm32f7xx.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_stm32f7xx.o: ..\CORE\core_cmInstr.h
+.\objects\system_stm32f7xx.o: ..\CORE\cmsis_armcc.h
+.\objects\system_stm32f7xx.o: ..\CORE\core_cmFunc.h
+.\objects\system_stm32f7xx.o: ..\CORE\core_cmSimd.h
+.\objects\system_stm32f7xx.o: ..\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h

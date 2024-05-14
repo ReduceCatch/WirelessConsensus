@@ -1,0 +1,14 @@
+.\objects\stm32f7xx_ll_utils.o: ..\HALLIB\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_utils.c
+.\objects\stm32f7xx_ll_utils.o: ..\HALLIB\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_utils.h
+.\objects\stm32f7xx_ll_utils.o: ..\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+.\objects\stm32f7xx_ll_utils.o: ..\CMSIS\Device\ST\STM32F7xx\Include\stm32f767xx.h
+.\objects\stm32f7xx_ll_utils.o: ..\CORE\core_cm7.h
+.\objects\stm32f7xx_ll_utils.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f7xx_ll_utils.o: ..\CORE\core_cmInstr.h
+.\objects\stm32f7xx_ll_utils.o: ..\CORE\cmsis_armcc.h
+.\objects\stm32f7xx_ll_utils.o: ..\CORE\core_cmFunc.h
+.\objects\stm32f7xx_ll_utils.o: ..\CORE\core_cmSimd.h
+.\objects\stm32f7xx_ll_utils.o: ..\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h
+.\objects\stm32f7xx_ll_utils.o: ..\HALLIB\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rcc.h
+.\objects\stm32f7xx_ll_utils.o: ..\HALLIB\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_system.h
+.\objects\stm32f7xx_ll_utils.o: ..\HALLIB\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_pwr.h

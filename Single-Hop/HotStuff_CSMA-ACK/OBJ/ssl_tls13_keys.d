@@ -1,0 +1,13 @@
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\library\ssl_tls13_keys.c
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\library\common.h
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/build_info.h
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/mbedtls_config.h
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/config_psa.h
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\include\mbedtls/check_config.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ssl_tls13_keys.o: ..\MBEDTLS\mbedtls-development\library\alignment.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\ssl_tls13_keys.o: E:\keil\ARM\ARMCC\Bin\..\include\stddef.h

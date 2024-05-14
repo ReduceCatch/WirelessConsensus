@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Liu Shuo, SDU, LIC=JL263-AYELA-UGV7Q-NKX7S-NN00S-8ZAYN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  E:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+G:\桌面\FreeRTOS-NCU-Tendermint2\USER\FreeRTOS-NCU-Tendermint2.uvprojx
+Project File Date:  08/16/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'E:\keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling tendermint2.c...
+..\APPLICATION\tendermint2.h(110): warning:  #1295-D: Deprecated declaration tendermint2 - give arg types
+  void tendermint2();
+..\APPLICATION\tendermint2.c(104): warning:  #1295-D: Deprecated declaration Go_ACK - give arg types
+  void Go_ACK();
+..\APPLICATION\tendermint2.c(105): warning:  #1295-D: Deprecated declaration Start_TIMER - give arg types
+  void Start_TIMER();
+..\APPLICATION\tendermint2.c(109): warning:  #1295-D: Deprecated declaration Propose - give arg types
+  void Propose();
+..\APPLICATION\tendermint2.c(110): warning:  #1295-D: Deprecated declaration Send_VIEW_CHANGE - give arg types
+  void Send_VIEW_CHANGE();
+..\APPLICATION\tendermint2.c(112): warning:  #1295-D: Deprecated declaration Sleep_Random - give arg types
+  void Sleep_Random();
+..\APPLICATION\tendermint2.c(113): warning:  #1295-D: Deprecated declaration ACK_phase - give arg types
+  void ACK_phase();
+..\APPLICATION\tendermint2.c(114): warning:  #1295-D: Deprecated declaration Catching_PREPREPARE - give arg types
+  void Catching_PREPREPARE();
+..\APPLICATION\tendermint2.c(115): warning:  #1295-D: Deprecated declaration Catching_PREPARE - give arg types
+  void Catching_PREPARE();
+..\APPLICATION\tendermint2.c(116): warning:  #1295-D: Deprecated declaration Catching_COMMIT - give arg types
+  void Catching_COMMIT();
+..\APPLICATION\tendermint2.c(121): warning:  #1295-D: Deprecated declaration test_finish - give arg types
+  void test_finish();
+..\APPLICATION\tendermint2.c(125): warning:  #223-D: function "LoRa_Init" declared implicitly
+  	while(LoRa_Init())//??始化LORA模??
+..\APPLICATION\tendermint2.c(135): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\tendermint2.c(190): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(199): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(223): warning:  #223-D: function "RNG_Get_RandomRange" declared implicitly
+  	if(RNG_Get_RandomRange(2,101) <= DONE_THRES){
+..\APPLICATION\tendermint2.c(224): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(0);
+..\APPLICATION\tendermint2.c(226): warning:  #223-D: function "usart3_rx" declared implicitly
+  		usart3_rx(1);
+..\APPLICATION\tendermint2.c(232): warning:  #223-D: function "btim_tim2_enable" declared implicitly
+  	btim_tim2_enable(ENABLE);
+..\APPLICATION\tendermint2.c(244): warning:  #223-D: function "GPIO_Pin_Set" declared implicitly
+  	
+ED0(1);LED1(1);LED2(1);
+..\APPLICATION\tendermint2.c(246): warning:  #223-D: function "init_public_key" declared implicitly
+  	init_public_key(); 
+..\APPLICATION\tendermint2.c(237): warning:  #177-D: variable "before_delay" was declared but never referenced
+  	u16 before_delay = (id)*slot; 
+..\APPLICATION\tendermint2.c(238): warning:  #177-D: variable "after_delay" was declared but never referenced
+  	u16 after_delay = (N-id)*slot;
+..\APPLICATION\tendermint2.c(407): warning:  #177-D: variable "my_flag" was declared but never referenced
+  	u8 my_flag=0;
+..\APPLICATION\tendermint2.c(443): warning:  #177-D: variable "my_decide" was declared but never referenced
+  	u8 my_decide = 1;
+..\APPLICATION\tendermint2.c(607): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  					LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(628): warning:  #223-D: function "RNG_Get_RandomNum" declared implicitly
+  		seed = RNG_Get_RandomNum();
+..\APPLICATION\tendermint2.c(702): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"
+..\APPLICATION\tendermint2.c(733): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(760): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(797): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  		LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(825): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(852): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);// id 0 "Hello LoRa"1
+..\APPLICATION\tendermint2.c(873): warning:  #223-D: function "LoRa_Set" declared implicitly
+  	LoRa_Set();
+..\APPLICATION\tendermint2.c(879): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(908): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(934): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(960): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(988): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c(1014): warning:  #223-D: function "LoRa_SendData" declared implicitly
+  	LoRa_SendData(Send_Data_buff);
+..\APPLICATION\tendermint2.c: 40 warnings, 0 errors
+linking...
+Program Size: Code=54064 RO-data=1540 RW-data=4044 ZI-data=60836  
+"..\OBJ\FreeRTOS-NCU-Tendermint2.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\桌面\FreeRTOS-NCU-Tendermint2\USER\RTE
+  E:\keil\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
