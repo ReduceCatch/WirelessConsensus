@@ -26,7 +26,7 @@ We provide a Keil project for each consensus algorithm.
 
 Keil version: [5.36](https://developer.arm.com/Tools%20and%20Software/Keil%20MDK)
 
-Operating System: [FreeRTOS]([FreeRTOS - Market leading RTOS (Real Time Operating System) for embedded systems with Internet of Things extensions](https://www.freertos.org/index.html))
+Operating System: [FreeRTOS](https://www.freertos.org/index.html)
 
 #### Hardware requirement
 
