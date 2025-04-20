@@ -1,3 +1,7 @@
+# Archived
+
+This repository has been archived. Please visit the new location at https://github.com/BDS-SDU/WirelessConsensus-Sync for the latest updates.
+
 # WirelessConsensus
 
 This repository is for "Partially Synchronous BFT Consensus Made Practical in Wireless Networks."
